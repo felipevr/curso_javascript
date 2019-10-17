@@ -14,10 +14,17 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </head>
 <body>
+    <h1>Produtos</h1>
     <div class="container">
-        <div class="row">
+            <div class="row">
+                <div class="col">
+                    <h2>Cadastro de Produtos</h2>
 
-            <h1>Lista de Produtos</h1>
+                </div>
+            </div>
+        <div class="row">
+                <h2>Listagem de Produtos</h2>
+
             <pre><%= JSON.stringift(produtos) %></pre>
 
             <table class="table table-dark">
@@ -26,6 +33,7 @@
                     <th scope="col">Nome</th>
                     <th scope="col">Vl. Unit.</th>
                     <th scope="col">Codigo</th>
+                    <th scope="col">Ações</th>
                 </tr>
                 </thead>
                 <tbody>
@@ -34,6 +42,10 @@
                     <th scope="row"><%= produto.nome %></th>
                     <td><%= produto.vlUnit %></td>
                     <td><%= produto.codigoBarras %></td>
+                    <td>
+                        <button class="btn btn-primary">Editar</button>
+                        <button class="btn btn-danger">Excluir</button>
+                    </td>
                 </tr>
                 <% }) %>
                 </tbody>
