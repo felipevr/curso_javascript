@@ -50,19 +50,20 @@ DESAFIO PENDENTE!
 
 -------------------
 
-### MÓDULO 08 - EM ANDAMENTO
+### MÓDULO 08 - COMPLETO
 
 DESAFIO PENDENTE!
 
 -------------------
 
-### MÓDULO 09 - EM ANDAMENTO
+### MÓDULO 09 - COMPLETO
 
 DESAFIO PENDENTE!
 
 -------------------
 
-### MÓDULO 10 - STANDING BY
+### MÓDULO 10 - EM ANDAMENTO
+
 
 -------------------
 
