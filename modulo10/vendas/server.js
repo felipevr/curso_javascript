@@ -8,7 +8,9 @@ app.set('view engine', 'ejs');
 
 //banco de dados
 const mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost:27017/vendas', {useNewUrlParser: true});
+const connectionString = 'mongodb+srv://vendas:produtos@cluster0-hi6j9.mongodb.net/test?retryWrites=true&w=majority';
+mongoose.connect(connectionString, {useNewUrlParser: true});
+
 
 const Produtos = mongoose.model('Produtos', {
     nome: String,
